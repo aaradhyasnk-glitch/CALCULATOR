@@ -67,6 +67,8 @@ while True :
         numone = float(input("Enter first digit for Division  : "))
         numtwo = float(input("Enter second number for Division : "))
 
+        result = division (numone,numtwo)
+
     
     except ZeroDivisionError:
         print ("A number cannot be divided by 0!!")
@@ -77,7 +79,7 @@ while True :
         continue
     
     else :
-        print ("Result = ", division(numone,numtwo))
+        print ("Result = ", result)
         break
 
     
