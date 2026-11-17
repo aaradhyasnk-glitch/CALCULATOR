@@ -79,7 +79,7 @@ while True :
         continue
     
     else :
-        print ("Result = ", result)
+        print ("Result = ", result )
         break
 
     
